@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vacation Tracker</title>
+    <link type="text/css"  rel="stylesheet" href="vs.css">
+</head>
+<body>
+<div class="row">
+
+        <header>
+           VacationTracker
+        </header>
+
+
+<div class="column" id="menu">
+    <legend>Menu</legend>
+    <div class="btn-group">
+    <button class="button" onclick="createEmployee()">Add a Vacation</button>
+    <button class="button" onclick="getEmployee()">Find All Vacations</button>
+    <button class="button" onclick=" putEmployee()">Adjust a Vacation</button>
+    <button class="button" onclick="deleteEmployee()">Delete a Vacation</button>
+    </div>
+</div>
+        <div class="column">
+            <legend>Tracker</legend>
+            <div>
+                <label for="id">id:</label>
+                <input type="number" name="id" id="id"/>
+            </div>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name"/>
+            </div>
+            <div>
+                <label for="start">Start:</label>
+                <input type="date" name="start" id="start"/>
+            </div>
+            <div>
+                <label for="end">End:</label>
+                <input type="date" name="end" id="end"/>
+            </div>
+        </div>
+            <div class="column">
+
+                <legend>Vacations</legend>
+                <output type="textbox" name="vacations" id="vacations"/>
+
+            <table id="table" >
+                <tr>
+                    <th>id</th>
+                    <th>name</th>
+                    <th>start</th>
+                    <th>end</th>
+                </tr>
+                <tr>
+                    <td>
+                    </td>
+                </tr>
+            </table>
+            </div>
+
+
+        </div>
+        <script src="vs.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    
+</body>
+</html>

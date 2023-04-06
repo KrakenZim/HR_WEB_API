@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/WS_Project.iml" filepath="$PROJECT_DIR$/.idea/WS_Project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WS_Project1/vacation_project/vacation_project/vacation_project.iml" filepath="$PROJECT_DIR$/WS_Project1/vacation_project/vacation_project/vacation_project.iml" />
+    </modules>
+  </component>
+</project>
